@@ -1,4 +1,6 @@
 def format_name(f_name, l_name):
+    """Takes first and last name and formats it
+    in order to return title version of full name"""
     formated_f_name = f_name.title()
     formated_l_name = l_name.title()
     return f"{formated_f_name} {formated_l_name}"
